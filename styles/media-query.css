@@ -1,21 +1,51 @@
-/* Typical Device Breakpoints
-Pequenas telas: até 600px
-Celular: de 600px até 768px
-Tablet: de 768px até 992px
-Desktop: de 992px até 1200px
-Grandes telas: acima de 1200px
-*/
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px){
     header {
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
     }
+
+    header, main, footer {
+        width: 80%;
+    }
     
-    #titulo {
+    #logo {
         display: flex;
+    }
+
+    #titulo {
+        margin: 5px;
+    }
+
+    i#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu a {
+        background-color: none;
+        display: inline-block;
+        background-color: transparent;
+        border-top: none;
+        padding: 0px 20px 0px 0px;
+        margin: 10px;
+    }
+
+    menu a:hover {
+        background-color: transparent;
+    }
+
+    .border {
+        border-right: 2px solid gray;
+    }
+
+    #ftprincipal {
+        height: 550px;
     }
 
     #texto {
@@ -40,4 +70,25 @@ Grandes telas: acima de 1200px
         flex-flow: row nowrap;
         align-items: flex-end;
     }
+
+    section {
+        display: flex;
+    }
+
+    #titulofrot {
+        padding: 3px;
+    }
+
+    #brcdestino {
+        width: 400px;
+        height: 250px;
+        margin: 10px;
+    }
+
+    .brcfrota {
+        width: 230px;
+        margin: 5px;
+    }
+
 }
+
