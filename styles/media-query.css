@@ -85,10 +85,14 @@
         margin: 10px;
     }
 
-    .brcfrota {
-        width: 230px;
-        margin: 5px;
+    #imgfrota {
+        max-width: 500px;
     }
+
+    .brcfrota {
+        width: 210px;
+        margin: 5px;
+    } 
 
 }
 
