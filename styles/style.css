@@ -132,12 +132,15 @@ main h3 {
 }
 
 #imgfrota {
-    display: flex;
-    flex-flow: row wrap;
+    max-width: 300px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 300px));
+    gap: 10px;
+    
 }
 
 .brcfrota {
-    width: 160px;
+    width: 140px;
     margin: 5px;
 }
 
